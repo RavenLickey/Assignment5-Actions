@@ -1,7 +1,7 @@
 import unittest
 import task
 import math
-import datetime
+from datetime import date
 
 
 class TestCase(unittest.TestCase):

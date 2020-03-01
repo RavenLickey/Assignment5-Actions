@@ -1,5 +1,5 @@
 import math
-import datetime
+from datetime import date
 
 
 def firstrun():
