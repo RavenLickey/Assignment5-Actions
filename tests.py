@@ -1,6 +1,7 @@
 import unittest
 import task
 import math
+import datetime
 
 
 class TestCase(unittest.TestCase):
@@ -28,6 +29,15 @@ class TestCase(unittest.TestCase):
         output2 = ["apple", "this will be a long string for fun because it will be at the end"]
         self.assertEqual(output1, task.firstLast(input1))
         self.assertEqual(output2, task.firstLast(input2))
+
+    def test_dateDifference(self):
+        input1 = date(2020, 12, 25)
+        input2 = date(2021, 12, 25)
+        output1 = 366
+        input3 = date(2022, 12, 25)
+        output2 = 365
+        self.assertEqual(output1, task.dateDifference(input1, input2))
+        self.assertEqual(output2, task.dateDifference(input2, input3))
 
 
 if __name__ == '__main__':

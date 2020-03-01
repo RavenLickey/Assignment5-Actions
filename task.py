@@ -1,4 +1,5 @@
 import math
+import datetime
 
 
 def firstrun():
@@ -14,3 +15,8 @@ def firstLast(theList):
     retList.append(theList[0])
     retList.append(theList[-1])
     return retList
+
+
+def dateDifference(date1, date2):
+    dif = date2-date1
+    return dif
