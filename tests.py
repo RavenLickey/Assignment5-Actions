@@ -21,6 +21,12 @@ class TestCase(unittest.TestCase):
         output2 = 0
         self.assertEqual(output2, task.circleArea(input2))
 
-
+    def test_firstLast(self):
+        input1 = [0, 1, 2, 3, 4, 5]
+        output1 = [0, 5]
+        input2 = ["apple", "jacks", "are", "gross", "this will be a long string for fun because it will be at the end"]
+        output2 = ["apple", "this will be a long string for fun because it will be at the end"]
+        self.assertEqual(output1, task.firstLast(input1))
+        self.assertEqual(output2, task.firstLast(input2))
 if __name__ == '__main__':
     unittest.main()
