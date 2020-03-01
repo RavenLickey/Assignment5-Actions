@@ -12,4 +12,4 @@ def circleArea(radius):
 def firstLast(theList):
     retList = []
     retList.append(theList[0])
-    retList.appned(theList[-1])
+    retList.append(theList[-1])
