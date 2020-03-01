@@ -29,6 +29,6 @@ class TestCase(unittest.TestCase):
         self.assertEqual(output1, task.firstLast(input1))
         self.assertEqual(output2, task.firstLast(input2))
 
-        
+
 if __name__ == '__main__':
     unittest.main()
