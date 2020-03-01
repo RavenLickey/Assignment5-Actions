@@ -13,3 +13,4 @@ def firstLast(theList):
     retList = []
     retList.append(theList[0])
     retList.append(theList[-1])
+    return retList
