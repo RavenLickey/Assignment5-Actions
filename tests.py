@@ -28,5 +28,7 @@ class TestCase(unittest.TestCase):
         output2 = ["apple", "this will be a long string for fun because it will be at the end"]
         self.assertEqual(output1, task.firstLast(input1))
         self.assertEqual(output2, task.firstLast(input2))
+
+        
 if __name__ == '__main__':
     unittest.main()
