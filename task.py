@@ -19,4 +19,4 @@ def firstLast(theList):
 
 def dateDifference(date1, date2):
     dif = date2-date1
-    return dif
+    return dif.days

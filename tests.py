@@ -33,7 +33,7 @@ class TestCase(unittest.TestCase):
     def test_dateDifference(self):
         input1 = date(2020, 12, 25)
         input2 = date(2021, 12, 25)
-        output1 = 366
+        output1 = 365
         input3 = date(2022, 12, 25)
         output2 = 365
         self.assertEqual(output1, task.dateDifference(input1, input2))
